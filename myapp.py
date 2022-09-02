@@ -3,7 +3,7 @@ import json
 
 app = Flask(__name__)
 
-myjokes = ["why did the chicken cross the street?"]
+myjokes = ["why did the chicken cross the street? he he"]
 
 @app.route("/getjoke", methods=["GET"])
 def get_all_joke():
